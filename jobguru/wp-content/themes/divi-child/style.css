@@ -1,0 +1,117 @@
+/*!
+Theme Name: Divi-child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Version: 3.22.7
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Divi-child
+*/
+
+.avail{margin-top: -440px; position: absolute;width: 1100px;}
+.lower-form{margin-top: 120px;}
+/* #main-footer{margin-top: 300px;} */
+/* .wpcf7-select{color: white; background-color: #709b1d; box-shadow: aquamarine;}  */
+#logo{width:220px ;}
+.entry-content{margin-top: -60px;}
+.find{margin-top:90px ;}
+#main-header{background: linear-gradient( to bottom,#084460 0%, #4bc4fd 150%)}
+.hiring{margin-top:30px ;}
+.et_pb_column .et_pb_blurb_content{padding: 30px 16px;}
+.et_pb_blurb_description a:hover{color: red;}
+.et_pb_main_blurb_image, .et_pb_blurb_description p{cursor: pointer;}
+.people .et_pb_button_wrapper a:hover{color:#50dec8;}
+.social .et_pb_blurb{margin: -35px;}
+.et_pb_all_tabs .et_pb_active_content, ul.et_pb_tabs_controls  {    border: 4px solid #ebebeb;}
+.apply-form{display: none;}
+.apply-button {background-color: #1c87c9;border: none;color: white;padding: 10px 24px;text-align: center;text-decoration: none;display: inline-block; font-size: 20px; margin: 4px 2px;cursor: pointer;}
+.gall .et_pb_gallery_image  {width: 80px;}
+.subscibe .et_pb_newsletter_form{margin-left: -575px}
+.app .et_pb_button .et_pb_bg_layout_light.et_pb_button, .et_pb_newsletter_button_wrap:hover{background-color: #a7e15e;}
+.employ {width: 280px;margin-left: -30px;cursor:pointer;}
+/* .subscibe{} */
+.download{margin-left: 200px; margin-top: 40px;}
+.download h2{font-weight: 600;}
+.mobile  {margin-left: -120px; cursor:pointer;}
+.app{margin-left: 270px;}
+.job-search-title h1{margin-top: 10px;font-size: 35px;} 
+.job-search {margin-top: -10px;}
+/* .app .et_pb_button_1:hover{background-color: #a7e15e; } */
+.et_pb_blurb, .man {cursor: pointer;}
+.et_pb_blurb:hover{background-color: #1c87c9;} 
+.mentor .et_pb_image_wrap:hover {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+/* .about{padding: 200px;} */
+.gallery-icon img{border: none;}
+
+/* Search form */
+.locate,.keyword, .company, .category {margin-top: 15px;}
+.locate .wpcf7-text, .keyword .wpcf7-text, .company .wpcf7-text, .category .wpcf7-select{width: 250px;height: 35px;margin-left: 30px;border-radius: 5px;}
+.search{margin-top: 15px;margin-left: 35px;margin-bottom: 15px;}
+.search .wpcf7-submit{background-color: #8bc243;color: white;font-size: 18px;font-weight: bold;width: 110px;border-radius: 10px;}
+.search-job{height:100px; margin-top: 20px; margin-left: 30px;width: 330px;}
+.search-job-form{margin-top: -80px; margin-left: 30px;border: 5px solid #4bc4fd; margin-right: -60px;border-radius: 10px;}
+.search-job h1{padding-top: 16px;padding-left: 20px;}
+label{font-size: 20px;margin-left: 27px;}
+
+/* Pop up Box */
+
+  /* Page wrapper */ .wrapper {width: 90%; max-width: 800px; margin: 4em auto; text-align: center;}
+  /* Icons */ .icon {  display: inline-block;  width: 16px;  height: 16px;  vertical-align: middle;  fill: currentcolor;}
+  /* Headings */ h1,h2,h3,h4,h5,h6 {font-size: 25px; color: #222;font-weight: 700;font-family: inherit; line-height: 1.333; text-rendering: optimizeLegibility; }
+  /**  * Modals ($modals)  */ 
+  /* 1. Ensure this sits above everything when visible */ .modal {    position: absolute;    z-index: 10000; /* 1 */top: 0;left: 0;visibility: hidden;width: 100%;height: 100%;} .modal.is-visible { visibility: visible;}
+  .modal-overlay { position: fixed; z-index: 10; top: 0; left: 0; width: 100%; height: 100%; background: hsla(0, 0%, 0%, 0.5); visibility: hidden;opacity: 0;transition: visibility 0s linear 0.3s, opacity 0.3s;}
+  .modal.is-visible .modal-overlay { opacity: 1;visibility: visible;transition-delay: 0s; }
+  .modal-wrapper { position: absolute; z-index: 9999; top: 6em; left: 50%;width: 32em;margin-left: -16em;background-color: #fff;box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);}
+  .modal-transition {transition: all 0.3s 0.12s;transform: translateY(-10%);opacity: 0;}
+  .modal.is-visible .modal-transition { transform: translateY(0); opacity: 1;}
+  .modal-header,.modal-content {  padding: 1em;}
+  .modal-header {position: relative; background-color: #4bc4fd; box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06); border-bottom: 1px solid #e8e8e8; }
+  .modal-header h2{color: white;padding-top: 10px; font-size: 25px;}
+  .modal-close {position: absolute;top: 0; right: 0; padding: 1em; color: #aaa; background: none; border: 0;}
+  .modal-close:hover { color: #777;}
+  .modal-heading {font-size: 1.125em;margin: 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+  .modal-content > *:first-child { margin-top: 0;}
+  .modal-content > *:last-child {margin-bottom: 0;}  
+  .form{margin-top: 30px;}
+  .form .wpcf7-submit{background-color:#1c87c9 ; width: 200px;height: 40px;margin-left: 150px;color: white;}
+  .form .wpcf7-submit:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color: #89bf41;}
+  .form-name, .form-subject, .form-resume, .form-phone, .form-email{margin-top: 25px;}
+  .form-name .wpcf7-text, .form-email .wpcf7-text, .form-phone .wpcf7-text, .form-subject .wpcf7-text   {width: 350px; margin-left: 0px;}
+  
+  .find h5{font-size: 16px;}
+
+
+        .joblist{padding: 100px 0;}
+        .joblist .et_pb_post {
+          width: calc(100% / 2 - 40px);
+          margin: 0 20px 40px 20px;
+          word-break: break-all;
+      
+
+      }
+      .joblist .et_pb_row{
+        display: flex;
+        flex-wrap: wrap;
+         
+      }
+      .joblist .et_pb_post .entry-content{
+        margin-top:0;
+      }
+      .joblist .et_pb_post  img{
+        width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .field-heading{font-size: 16px; float: left;}
+      .et_post_meta_wrapper h1{font-size: 40px;}
+      .textwidget p{text-align: center;}
+      .gallery-icon img{border: none;} 
+/* .company-name{margin-bottom: 40px;} */
